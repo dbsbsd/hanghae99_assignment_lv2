@@ -1,0 +1,47 @@
+.content {
+    border: 4px solid teal;
+    border-radius: 12px;
+    padding: 12px 24px 24px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+
+    .detail {
+        text-decoration: none;
+        color: inherit;
+        font-size: 13px;
+    }
+    .detail:hover {
+        color: teal;
+    }
+
+    .btn {
+        display: flex;
+        gap: 10px;
+        margin-top: auto;
+
+        button {
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            height: 40px;
+            width: 50%;
+        }
+
+        .deleteBtn {
+            background-color: #fff;
+            border: 2px solid red;
+        }
+        .deleteBtn:hover {
+            color: red;
+        }
+
+        .doneBtn {
+            background-color: #fff;
+            border: 2px solid green;
+        }
+        .doneBtn:hover {
+            color: green;
+        }
+    }
+}
